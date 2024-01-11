@@ -4,7 +4,7 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 
 const linkWithFiltersValue =
-  "https://robota.ua/zapros/junior-frontend-developer/kyiv";
+  "https://robota.ua/zapros/front-end-developer/kyiv";
 
 (async () => {
   const browser = await puppeteer.launch({
